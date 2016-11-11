@@ -40,17 +40,17 @@ public class P2pLoginCase extends DriverBase {
 			
 			driver.switchTo().frame(0);
 			String text = P2pLogin.tips.getText();
-			if (text.contains("登录账户:"+username)){
-				Assert.assertTrue(true);
-			}else if(P2pLogin.login_msg.getText().contains("管理员密码错误")){
-				Assert.assertTrue(true);
-			}else if(P2pLogin.login_msg.getText().contains("管理员账号错误")){
-				Assert.assertTrue(true);
-			}else if(P2pLogin.login_msg.getText().contains("验证码错误")){
-				Assert.assertTrue(true);
-			}else{
-				System.out.println("登录功能有异常");
-			}
+//			if (text.contains("登录账户:"+username)){
+//				Assert.assertTrue(true);
+//			}else if(P2pLogin.login_msg.getText().contains("管理员密码错误")){
+//				Assert.assertTrue(true);
+//			}else if(P2pLogin.login_msg.getText().contains("管理员账号错误")){
+//				Assert.assertTrue(true);
+//			}else if(P2pLogin.login_msg.getText().contains("验证码错误")){
+//				Assert.assertTrue(true);
+//			}else{
+//				System.out.println("登录功能有异常");
+//			}
 			
 			P2pLogin.ogin_out.click();
 			Thread.sleep(2000);

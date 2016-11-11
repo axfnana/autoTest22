@@ -2,34 +2,34 @@
 <testng-results skipped="2" failed="0" total="2" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[[Longteng 2016-10-17 10:10:13] =======================================================]]>
+      <![CDATA[[Longteng 2016-11-10 23:21:40] =======================================================]]>
     </line>
     <line>
-      <![CDATA[[Longteng 2016-10-17 10:10:13]                     测试框架执行开始]]>
+      <![CDATA[[Longteng 2016-11-10 23:21:40]                     测试框架执行开始]]>
     </line>
     <line>
-      <![CDATA[[Longteng 2016-10-17 10:10:13] =======================================================]]>
+      <![CDATA[[Longteng 2016-11-10 23:21:40] =======================================================]]>
     </line>
     <line>
-      <![CDATA[[Longteng 2016-10-17 10:10:13] 初始化配置文件]]>
+      <![CDATA[[Longteng 2016-11-10 23:21:40] 初始化配置文件]]>
     </line>
     <line>
-      <![CDATA[[LongTeng 2016-10-17 10:10:13] 打开Firefox浏览器]]>
+      <![CDATA[[LongTeng 2016-11-10 23:21:41] 打开Firefox浏览器]]>
     </line>
   </reporter-output>
-  <suite name="suite" duration-ms="129" started-at="2016-10-17T02:10:13Z" finished-at="2016-10-17T02:10:14Z">
+  <suite name="suite" duration-ms="248" started-at="2016-11-10T15:21:41Z" finished-at="2016-11-10T15:21:41Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="129" started-at="2016-10-17T02:10:13Z" finished-at="2016-10-17T02:10:14Z">
+    <test name="test" duration-ms="248" started-at="2016-11-10T15:21:41Z" finished-at="2016-11-10T15:21:41Z">
       <class name="com.longteng.selenium.testcase.P2pLoginCase">
-        <test-method status="FAIL" signature="initPage()[pri:0, instance:com.longteng.selenium.testcase.P2pLoginCase@5ed56a40]" name="initPage" is-config="true" duration-ms="0" started-at="2016-10-17T10:10:13Z" finished-at="2016-10-17T10:10:13Z">
+        <test-method status="FAIL" signature="initPage()[pri:0, instance:com.longteng.selenium.testcase.P2pLoginCase@42deac10]" name="initPage" is-config="true" duration-ms="0" started-at="2016-11-10T23:21:41Z" finished-at="2016-11-10T23:21:41Z">
           <exception class="java.lang.ExceptionInInitializerError">
             <full-stacktrace>
               <![CDATA[java.lang.ExceptionInInitializerError
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
-	at com.longteng.qa.webdriver.DriverBase.launch(DriverBase.java:40)
+	at com.longteng.qa.webdriver.DriverBase.launch(DriverBase.java:47)
 	at com.longteng.selenium.testcase.P2pLoginCase.initPage(P2pLoginCase.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
@@ -60,7 +60,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 Caused by: org.openqa.selenium.WebDriverException: 'webdriver.firefox.bin' property set, but unable to locate the requested binary: C:\Firefox\firefox.exe
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DESKTOP-64VN1TE', ip: '192.168.0.170', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+System info: host: 'DESKTOP-64VN1TE', ip: '192.168.0.151', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
 Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.firefox.internal.Executable.locateFirefoxBinaryFromSystemProperty(Executable.java:146)
 	at org.openqa.selenium.firefox.internal.Executable.<clinit>(Executable.java:45)
@@ -70,11 +70,11 @@ Driver info: driver.version: FirefoxDriver
           </exception> <!-- java.lang.ExceptionInInitializerError -->
           <reporter-output>
             <line>
-              <![CDATA[[LongTeng 2016-10-17 10:10:13] 打开Firefox浏览器]]>
+              <![CDATA[[LongTeng 2016-11-10 23:21:41] 打开Firefox浏览器]]>
             </line>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method status="SKIP" signature="loginCase(java.lang.String, java.lang.String)[pri:0, instance:com.longteng.selenium.testcase.P2pLoginCase@5ed56a40]" name="loginCase" duration-ms="1" started-at="2016-10-17T10:10:14Z" data-provider="csv" finished-at="2016-10-17T10:10:14Z">
+        <test-method status="SKIP" signature="loginCase(java.lang.String, java.lang.String)[pri:0, instance:com.longteng.selenium.testcase.P2pLoginCase@42deac10]" name="loginCase" duration-ms="1" started-at="2016-11-10T23:21:41Z" data-provider="csv" finished-at="2016-11-10T23:21:41Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@ Driver info: driver.version: FirefoxDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCase -->
-        <test-method status="SKIP" signature="loginCase(java.lang.String, java.lang.String)[pri:0, instance:com.longteng.selenium.testcase.P2pLoginCase@5ed56a40]" name="loginCase" duration-ms="0" started-at="2016-10-17T10:10:14Z" data-provider="csv" finished-at="2016-10-17T10:10:14Z">
+        <test-method status="SKIP" signature="loginCase(java.lang.String, java.lang.String)[pri:0, instance:com.longteng.selenium.testcase.P2pLoginCase@42deac10]" name="loginCase" duration-ms="0" started-at="2016-11-10T23:21:41Z" data-provider="csv" finished-at="2016-11-10T23:21:41Z">
           <params>
             <param index="0">
               <value>
@@ -106,17 +106,17 @@ Driver info: driver.version: FirefoxDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCase -->
-        <test-method status="SKIP" signature="closedBrow()[pri:0, instance:com.longteng.selenium.testcase.P2pLoginCase@5ed56a40]" name="closedBrow" is-config="true" duration-ms="0" started-at="2016-10-17T10:10:14Z" finished-at="2016-10-17T10:10:14Z">
+        <test-method status="SKIP" signature="closedBrow()[pri:0, instance:com.longteng.selenium.testcase.P2pLoginCase@42deac10]" name="closedBrow" is-config="true" duration-ms="0" started-at="2016-11-10T23:21:41Z" finished-at="2016-11-10T23:21:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrow -->
       </class> <!-- com.longteng.selenium.testcase.P2pLoginCase -->
       <class name="com.longteng.selenium.testcase.AllCreditCase">
-        <test-method status="PASS" signature="beforeTestBase()[pri:0, instance:com.longteng.selenium.testcase.AllCreditCase@7413eb5b]" name="beforeTestBase" is-config="true" duration-ms="18" started-at="2016-10-17T10:10:13Z" finished-at="2016-10-17T10:10:13Z">
+        <test-method status="PASS" signature="beforeTestBase()[pri:0, instance:com.longteng.selenium.testcase.AllCreditCase@14ad0e9f]" name="beforeTestBase" is-config="true" duration-ms="17" started-at="2016-11-10T23:21:41Z" finished-at="2016-11-10T23:21:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestBase -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.longteng.selenium.testcase.AllCreditCase@7413eb5b]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-10-17T10:10:14Z" finished-at="2016-10-17T10:10:14Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.longteng.selenium.testcase.AllCreditCase@14ad0e9f]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-11-10T23:21:41Z" finished-at="2016-11-10T23:21:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
